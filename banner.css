@@ -1,0 +1,32 @@
+.banner{
+    width: 160px;
+    height: 600px;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-text{
+    color: black;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+    transition: color 0.5s;
+}
+
+.banner.bg1 { background-color: #ff5733;}
+.banner.bg2 { background-color: #33ff57;}
+.banner.bg3 { background-color: #3357ff;}
+.banner.bg4 { background-color: #ff33a2;}
+
+.text1 { color:#fff}
+.text2 { color:green}
+.text3 { color:#fff}
+.text4 { color:blue}
